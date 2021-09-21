@@ -7,10 +7,11 @@
 }
 
 .Weather h1 {
-  font-size: 24px;
+  font-size: 34px;
   font-weight: 100;
   margin: 20px 0 0 0;
   line-height: 28.8px;
+  color: #74b49b;
 }
 
 .Weather ul {
@@ -18,11 +19,39 @@
   padding: 0;
 }
 
+.form-control:focus {
+  outline: none !important;
+  border: 1px solid #74b49b;
+  box-shadow: 0 0 5px #74b49b;
+}
+
+.WeatherTemperature a {
+  color: #74b49b;
+  text-decoration: none;
+}
+
+.App footer a {
+  color: #74b49b;
+}
+
 .Weather li {
   font-size: 16px;
   font-weight: 100;
   line-height: 19px;
   list-style: none;
+  color: #81a7a4;
+}
+
+.btn {
+  background-color: #81a7a4;
+  border-color: #74b49b;
+}
+
+.btn:hover {
+  background-color: white;
+  color: #74b49b;
+  border-color: #81a7a4;
+  transition: 150ms all ease-in-out;
 }
 
 .Weather canvas {
@@ -37,6 +66,7 @@
   font-size: 64px;
   line-height: 64px;
   font-weight: 400;
+  opacity: 0.7;
 }
 
 .Weather .unit {
